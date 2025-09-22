@@ -236,7 +236,7 @@ $(document).ready(function(){
     responsive:{
       0:{ items:1.2 },
       576:{ items:2.3 },
-      768:{ items:2.8},
+      768:{ items:2.3},
       1200:{ items:3.8 },
         1400:{ items:4.2  },
         1600:{ items:4.6 }
