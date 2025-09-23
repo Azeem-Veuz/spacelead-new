@@ -304,10 +304,7 @@ ul {
             box-shadow: -2px 0 10px rgba(0,0,0,0.1);
         }
 
-        #registerNowFixed:hover {
-            background: #4a9f9d;
-            transform: translateY(-50%) translateX(-5px);
-        }
+        
 
         #registerNowFixed span {
             transform: rotate(-90deg);
