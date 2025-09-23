@@ -3918,6 +3918,9 @@ h3.ticket-title {
 
 @media (max-width: 576px) {
 
+  .hero-text h1{
+    letter-spacing: 0 !important;
+  }
   .event-cards span{
     font-size: 21px;
   }
