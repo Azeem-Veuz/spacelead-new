@@ -3918,6 +3918,14 @@ h3.ticket-title {
 
 @media (max-width: 576px) {
 
+  .condition a {
+    padding: 5px 20px;
+    font-size: 12px;
+}
+  .subfooter span{
+    font-size: 12px;
+  }
+
   .hero-text h1{
     letter-spacing: 0 !important;
   }
