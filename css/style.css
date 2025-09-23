@@ -660,6 +660,7 @@ ul {
   display: flex;
   text-align: center;
   gap: 20px;
+  margin-bottom: 0;
 }
 
 .countdown-item {
@@ -3844,6 +3845,7 @@ h3.ticket-title {
   .countdown-timer {
     grid-template-columns: repeat(4, 1fr);
     gap: 0.8rem;
+    
   }
 
   .countdown-item {
@@ -3916,6 +3918,10 @@ h3.ticket-title {
 }
 
 @media (max-width: 576px) {
+
+  .countdown-timer{
+    margin-bottom: 30px;
+  }
 
   .condition a {
     padding: 5px 20px;
