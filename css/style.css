@@ -356,8 +356,8 @@ ul {
   transition: color 0.3s ease;
   font-size: 14px;
   position: relative;
-  padding-left: 5px !important;
-  padding-right: 5px !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
 }
 
 .nav-link::after {
