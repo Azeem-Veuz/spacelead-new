@@ -277,30 +277,45 @@ ul {
 }
 
 /* Register Now button fixed */
-#registerNowFixed {
-  position: fixed;
-  right: 0px;
-  top: 50%;
-  background: #58C0BE;
-  border-radius: 10px 0px 0px 10px;
-  padding: 20px 8px;
-  color: white;
-  cursor: pointer;
-  z-index: 1050;
-  text-orientation: mixed;
-  user-select: none;
-  text-align: center;
-  letter-spacing: 0.5px;
-  font-size: 0.9rem;
-  border: none;
-  transition: background 0.3s;
-  font-weight: 400;
-}
+ #registerNowFixed {
+            position: fixed;
+            right: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #58C0BE;
+            border-radius: 10px 0px 0px 10px;
+            color: white;
+            cursor: pointer;
+            z-index: 1050;
+            user-select: none;
+            text-align: center;
+            letter-spacing: 0.5px;
+            font-size: 0.9rem;
+            border: none;
+            transition: all 0.3s ease;
+            font-weight: 400;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 130px;
+            padding: 10px 5px;
+            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+        }
 
-#registerNowFixed span {
-  transform: rotate(180deg);
-  writing-mode: vertical-rl;
-}
+        #registerNowFixed:hover {
+            background: #4a9f9d;
+            transform: translateY(-50%) translateX(-5px);
+        }
+
+        #registerNowFixed span {
+            transform: rotate(-90deg);
+            white-space: nowrap;
+            width: 100px;
+            display: block;
+            text-align: center;
+        }
 
 #registerNowFixed:hover {
   background: linear-gradient(135deg, #a072ba, #74c7c8);

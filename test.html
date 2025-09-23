@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Rotate Register Button</title>
+    <style>
+        /* Method 2: Transform Rotate - iPhone Compatible */
+        #registerNowFixed {
+            position: fixed;
+            right: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #58C0BE;
+            border-radius: 10px 0px 0px 10px;
+            color: white;
+            cursor: pointer;
+            z-index: 1050;
+            user-select: none;
+            text-align: center;
+            letter-spacing: 0.5px;
+            font-size: 0.9rem;
+            border: none;
+            transition: all 0.3s ease;
+            font-weight: 400;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 130px;
+            padding: 10px 5px;
+            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        #registerNowFixed:hover {
+            background: #4a9f9d;
+            transform: translateY(-50%) translateX(-5px);
+        }
+
+        #registerNowFixed span {
+            transform: rotate(-90deg);
+            white-space: nowrap;
+            width: 100px;
+            margin-left: -30px;
+            display: block;
+            text-align: center;
+        }
+
+        /* Responsive adjustments for mobile */
+        @media (max-width: 768px) {
+            #registerNowFixed {
+                width: 35px;
+                height: 120px;
+                font-size: 0.8rem;
+            }
+            
+            #registerNowFixed span {
+                width: 90px;
+                margin-left: -27px;
+            }
+        }
+
+        /* Demo page styling */
+        body {
+            margin: 0;
+            padding: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .demo-content {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .code-block {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #58C0BE;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-content">
+        <h1>Method 2: Transform Rotate Register Button</h1>
+        
+        <p><strong>മലയാളത്തിൽ:</strong> ഈ method-ൽ മുഴുവൻ text-ഉം -90 degree തിരിച്ച് vertical ആക്കുന്നു.</p>
+        
+        <h3>CSS Code:</h3>
+        <div class="code-block">
+#registerNowFixed {
+    position: fixed;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #58C0BE;
+    border-radius: 10px 0px 0px 10px;
+    color: white;
+    cursor: pointer;
+    z-index: 1050;
+    user-select: none;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+    border: none;
+    transition: all 0.3s ease;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 130px;
+    padding: 10px 5px;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#registerNowFixed:hover {
+    background: #4a9f9d;
+    transform: translateY(-50%) translateX(-5px);
+}
+
+#registerNowFixed span {
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    width: 100px;
+    margin-left: -30px;
+    display: block;
+    text-align: center;
+}
+        </div>
+
+        <h3>HTML Code:</h3>
+        <div class="code-block">
+&lt;a href="register.html" id="registerNowFixed" title="Register Now"&gt;
+    &lt;span&gt;Register Now&lt;/span&gt;
+&lt;/a&gt;
+        </div>
+
+        <h3>വിശേഷതകൾ (Features):</h3>
+        <ul>
+            <li>✅ iPhone/iOS compatible</li>
+            <li>✅ Smooth hover animation</li>
+            <li>✅ Responsive design</li>
+            <li>✅ Clean vertical text</li>
+            <li>✅ Box shadow for depth</li>
+        </ul>
+    </div>
+
+    <!-- Register button -->
+    <a href="register.html" id="registerNowFixed" title="Register Now">
+        <span>Register Now</span>
+    </a>
+</body>
+</html>
