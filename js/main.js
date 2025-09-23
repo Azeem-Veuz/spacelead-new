@@ -332,7 +332,8 @@ owl.on('changed.owl.carousel', function(event) {
     0: { items: 2 },
     500: { items: 2 },
     800: { items: 3 },
-    1200: { items: 6 }
+    1200: { items: 5 },
+    1400: { items: 6 }
   }
 });
 
@@ -350,7 +351,8 @@ $(".row2").owlCarousel({
     0: { items: 2 },
     500: { items: 2 },
     800: { items: 3 },
-    1200: { items: 6 }
+    1200: { items: 5 }, 
+    1400: { items: 6 }
   }
 });
 

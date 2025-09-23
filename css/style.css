@@ -3784,6 +3784,10 @@ h3.ticket-title {
   color: #fff;
 }
 
+.select2{
+  width: 100% !important;
+}
+
 
 /* Responsive */
 @media (max-width: 1199px) {
@@ -3814,12 +3818,25 @@ h3.ticket-title {
     justify-content: flex-start;
   }
 
+
+}
+
+@media (max-width: 991px){
+
+  .add-to-caledar {
+        text-align: start !important;
+        margin: 20px 0;
+    }
 }
 
 
 
 
+
+
 @media (max-width: 768px) {
+
+  
 
   .mfp-video-container {
     width: 100%;
