@@ -737,6 +737,14 @@ ul {
   display: flex;
 }
 
+footer h5{
+  margin-bottom: 20px;
+    font-family: "Gilroy-Regular", sans-serif;
+    font-weight: 600;
+
+
+}
+
 
 /* about */
 
