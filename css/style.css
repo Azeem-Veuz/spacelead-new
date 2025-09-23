@@ -6052,7 +6052,8 @@ h2.exhibitor-h2 {
 
 
   .phone-mockup {
-    margin-top: 2rem;
+   margin: 15px auto;
+        max-width: 300px;
   }
 }
 
